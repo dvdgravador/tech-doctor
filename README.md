@@ -43,7 +43,7 @@ En cada actualización sube `versionCode` (y `versionName`) en `android/app/buil
 
 - Icono 512×512: `resources/play-store-icon-512.png` (se genera desde `resources/techdoctor-logo.webp` con `node resources/render.mjs`; luego `npx capacitor-assets generate --android` para los iconos y el splash de Android).
 - Banner de la marca: `resources/techdoctor-banner.webp` (sirve de base para el gráfico destacado de 1024×500).
-- Política de privacidad: `docs/privacidad.html` (publícala, p. ej. con GitHub Pages, y pega la URL en Play Console).
+- Política de privacidad: `docs/policy.html` (publícala, p. ej. con GitHub Pages, y pega la URL en Play Console).
 - Seguridad de los datos: la app **no recoge ni comparte datos**.
 - Categoría sugerida: Herramientas. Público objetivo: mayores de 18.
 - El nombre de paquete `com.techdoctor.app` no se puede cambiar después de la primera subida.

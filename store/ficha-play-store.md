@@ -43,5 +43,5 @@ Todas las calculadoras explican sus fórmulas. Los resultados son orientativos: 
 - Público objetivo: mayores de 18 años
 - Anuncios: no
 - Seguridad de los datos: no recoge ni comparte datos
-- Política de privacidad: publicar `docs/privacidad.html` y pegar la URL
-- Correo de contacto: el de tu cuenta de desarrollador
+- Política de privacidad: publicar `docs/policy.html` y pegar la URL
+- Correo de contacto: texto-ejemplo@googlegroups.com (Texto de Ejemplo)
