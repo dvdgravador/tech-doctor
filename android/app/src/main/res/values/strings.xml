@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Tech Doctor</string>
+    <string name="title_activity_main">Tech Doctor</string>
+    <string name="package_name">com.davidcarrillo.calctecnico</string>
+    <string name="custom_url_scheme">com.davidcarrillo.calctecnico</string>
+</resources>

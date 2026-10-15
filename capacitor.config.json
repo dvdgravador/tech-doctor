@@ -1,0 +1,8 @@
+{
+  "appId": "com.davidcarrillo.calctecnico",
+  "appName": "Tech Doctor",
+  "webDir": "dist",
+  "android": {
+    "backgroundColor": "#f2f2f2"
+  }
+}
