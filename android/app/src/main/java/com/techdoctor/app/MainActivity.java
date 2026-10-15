@@ -1,4 +1,4 @@
-package com.davidcarrillo.calctecnico;
+package com.techdoctor.app;
 
 import com.getcapacitor.BridgeActivity;
 

@@ -6,10 +6,10 @@ def keystoreProps = new Properties()
 if (keystorePropsFile.exists()) keystoreProps.load(new FileInputStream(keystorePropsFile))
 
 android {
-    namespace = "com.davidcarrillo.calctecnico"
+    namespace = "com.techdoctor.app"
     compileSdk = rootProject.ext.compileSdkVersion
     defaultConfig {
-        applicationId "com.davidcarrillo.calctecnico"
+        applicationId "com.techdoctor.app"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

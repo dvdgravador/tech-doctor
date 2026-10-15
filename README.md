@@ -26,7 +26,7 @@ Requisitos: [Android Studio](https://developer.android.com/studio) (trae el JDK 
 1. `npm run android:sync` — compila la web y la copia al proyecto `android/`.
 2. **Una sola vez**, crea la clave de subida (guárdala bien: sin ella no podrás actualizar la app):
    ```bash
-   keytool -genkeypair -v -keystore calctecnico-upload.jks -alias upload -keyalg RSA -keysize 2048 -validity 10000
+   keytool -genkeypair -v -keystore techdoctor-upload.jks -alias upload -keyalg RSA -keysize 2048 -validity 10000
    ```
    (Android Studio también la crea desde *Build › Generate Signed App Bundle*.)
 3. Copia `android/keystore.properties.example` a `android/keystore.properties` y rellena las contraseñas.
@@ -46,4 +46,4 @@ En cada actualización sube `versionCode` (y `versionName`) en `android/app/buil
 - Política de privacidad: `docs/privacidad.html` (publícala, p. ej. con GitHub Pages, y pega la URL en Play Console).
 - Seguridad de los datos: la app **no recoge ni comparte datos**.
 - Categoría sugerida: Herramientas. Público objetivo: mayores de 18.
-- El identificador `com.davidcarrillo.calctecnico` no se puede cambiar después de la primera subida.
+- El nombre de paquete `com.techdoctor.app` no se puede cambiar después de la primera subida.
